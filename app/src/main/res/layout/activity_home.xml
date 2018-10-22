@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/primary_text"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="70dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/checklistbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="50dp"
+                android:drawableTop="@drawable/ic_playlist_add_check_black_24dp"
+                android:background="@color/colorAccent2"
+                android:layout_marginRight="5dp"
+                android:text="Create Checklist"/>
+            <Button
+                android:id="@+id/disasterbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:paddingTop="50dp"
+                android:drawableTop="@drawable/ic_warning_black_24dp"
+                android:text="Disaster"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/emerbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorAccent"
+                android:paddingTop="50dp"
+                android:drawableTop="@drawable/ic_contact_phone_black_24dp"
+                android:text="Emergency Helpline Numbers"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent2"
+                android:paddingTop="50dp"
+
+                android:drawableTop="@drawable/ic_note_black_24dp"
+                android:text="Evacuation Plans"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
